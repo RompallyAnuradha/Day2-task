@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        fieldset {
+            display: block;
+            background-color: aquamarine;
+            border: 2px solid grey;
+            margin: 15px auto;
+            
+        }
+    </style>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <h1>Fill in the Form to register to Visual Studio Smarts Conference</h1>
+    <fieldset>
+        <legend>
+            <h2>Personal Data</h2>
+        </legend>
+        <table>
+            <tr>
+                <td>Salutation</td>
+                <td><select>
+                        <option>Mr</option>
+                        <option>Mrs</option>
+                        <option>Mr</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>First Name : </td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Last Name :</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Email :</td>
+                <td><input type="email"></td>
+            </tr>
+
+        </table>
+        <h3>Your Smarts Membership status</h3>
+        <input type="radio" name="radio"> Not a member
+        <input type="radio" name="radio"> Silver member
+        <input type="radio" name="radio"> Gold member <br><br>
+        <a href="#">Read more about Smarts membership</a>
+
+    </fieldset>
+    <fieldset>
+        <legend>
+            <h2>Your Conference Account</h2>
+        </legend>
+        <table>
+            <tr>
+                <td>Login Name:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td>Confirm Password: </td>
+                <td><input type="password"></td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>
+            <h2>Sessions</h2>
+        </legend>
+        <h4>What are the tracks you are intrested in ? </h4>
+        <input type="checkbox">Development
+        <input type="checkbox">ALM
+        <input type="checkbox">ASP.NET<br>
+        <input type="checkbox">C#
+        <input type="checkbox">Visual Basic
+        <input type="checkbox">SQL
+
+        <h3>What do you expect from sessions?</h3>
+        <textarea rows="4" cols="50"></textarea>
+    </fieldset>
+    <button type="submit">Register</button>
+</body>
+
+</html>
