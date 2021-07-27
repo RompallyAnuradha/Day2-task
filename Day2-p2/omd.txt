@@ -1,0 +1,44 @@
+1. How do we align the text of the following block-level element to the right?
+<nav class="main-navigation">
+  Home | About | Contact
+</nav>
+Ans: text-align :right;
+
+2.Remove the underline from the links.
+<nav class="main-navigation">
+  <a href="#" class="main-navigation__item">Home</a> | 
+  <a href="#" class="main-navigation__item">About</a> | 
+  <a href="#" class="main-navigation__item">Contact</a>
+</nav>
+Ans: style="text-decoration:none"
+
+3. Name at least five block-level elements.
+Ans: <address> , <article> , <aside> , <div> , <section> , <nav>
+
+4. When choosing between a <section> and a <div> to represent a section in the page, which one would you prefer?
+Ans: <section>
+
+5. Suppose the selector a[href] .c.d[type=text] is given. Which is the key selector?
+Ans: .c.d[type=text] 
+
+6. What is the desired way to make the text of a paragraph bold?
+Ans: <b> or <strong>tag
+
+------------------------------------------------------------------------------------------------------------------------------
+
+1.md
+
+1. What is the width of the content area of a border box element having a 300px width, 30px padding, and 5px border?
+Ans: 300px +(2*30px)+(2*5px)=370px
+
+2. What is the width of the left margin of a border box element having a 300px width, 30px padding, auto margin, and 5px border, assuming the viewport width is 540px?
+Ans: 540px-(2*5px)-(2*30px)=470px
+
+3. Knowing the properties of the content-box and the border-box model, what elements would the padding-box contain? a)Padding and content b) Only Content c) Only Padding
+Ans: padding and content
+
+4. Which properties do the different box-sizing property values influence assuming that all values are given in pixels? 
+a) width b)width and height c) border and padding d) border only
+Ans: width and height
+
+

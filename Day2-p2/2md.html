@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            border: 2px solid black;
+            margin: 20px auto;
+
+        }
+
+        .container1 {
+            background-color: lightgreen;
+            border: 1px solid black;
+            height: 150px;
+        }
+
+        .container2 {
+
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            height: 150px;
+            width: 100%;
+            border: 1px solid black;
+
+
+        }
+
+        #con1 {
+            background-color: lightsalmon;
+            flex: 1;
+            border: 1px solid black;
+
+        }
+
+        #con2 {
+            background-color: lightyellow;
+            flex: 1;
+            border: 1px solid black;
+        }
+
+        .container3 {
+            display: flex;
+            height: 200px;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+        }
+
+        .container3>* {
+            background-color: powderblue;
+            flex: 1 1 90px;
+            border: 1px solid black;
+
+
+        }
+
+        .container4 {
+            background-color: lightgreen;
+            border: 1px solid black;
+            height: 150px;
+        }
+    </style>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <div clss="container">
+        <div class="container1">
+            Header
+        </div>
+        <div class="container2">
+            <div id="con1">Main banner</div>
+            <div id="con2">Contact form</div>
+        </div>
+        <div class="container3">
+            <div>First post</div>
+            <div>Second post</div>
+            <div>Third post</div>
+            <div>Fourth post</div>
+            <div>Fifth post</div>
+            <div>Sixth</div>
+        </div>
+        <div class="container4">
+            Footer
+        </div>
+    </div>
+</body>
+
+</html>
